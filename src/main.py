@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent))
 
 from hypothesis_testing import InsuranceHypothesisTester
-from modeling import InsuranceModelBuilder
+from predictive_modeling import InsurancePredictiveModeling
 import pandas as pd
 import numpy as np
 
@@ -103,7 +103,7 @@ def run_task_4(data_path: str, output_dir: str = '../models'):
     print(f"Data shape: {df.shape}")
     
     # Initialize model builder
-    model_builder = InsuranceModelBuilder(df)
+    model_builder = InsurancePredictiveModeling(df)
     
     # Train severity models
     print("\nTraining claim severity models...")
