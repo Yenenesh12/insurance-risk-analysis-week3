@@ -1,0 +1,5 @@
+Hypothesis,Test Used,p-value,Decision,Business Impact
+1. Risk differences across provinces,ANOVA + Chi-square,0.606898,FAIL TO REJECT,High - Regional pricing adjustments needed
+2. Risk differences between zip codes,Chi-square + T-test,0.731505,FAIL TO REJECT,Medium - Geographic segmentation valuable
+3. Margin differences between zip codes,T-test,0.744406,FAIL TO REJECT,High - Profitability varies by location
+4. Risk differences between genders,Chi-square + T-test,0.249556,FAIL TO REJECT,Medium - Consider regulatory implications

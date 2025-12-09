@@ -74,7 +74,7 @@ DVC (Data Version Control)
 
 # Clone repository
 
-git clone https://github.com/yenenesh12/insurance-risk-analysis.git
+git clone https://github.com/Yenenesh12/insurance-risk-analysis.git
 
 cd insurance-risk-analysis
 
@@ -357,7 +357,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 👥 Authors
 
-Saron Zeleke
+Yenenesh Dabot
 
 🙏 Acknowledgments
 
